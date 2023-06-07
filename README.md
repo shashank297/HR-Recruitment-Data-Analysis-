@@ -118,6 +118,9 @@ The dataset exhibits several issues that require attention:
 ## Insights
 The following are some of the key insights obtained from the analysis:
 
+
+## Quick Overview of EDA in Python
+- For indept  detail checkout the `Python_EDA Notebook`
 ### Univariate Analysis
 In this section, both categorical and numerical columns are analyzed separately.
 **Task in this section:-**

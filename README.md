@@ -118,26 +118,6 @@ The dataset exhibits several issues that require attention:
 ## Insights
 The following are some of the key insights obtained from the analysis:
 
-
-## Quick Overview of EDA in Python
-- For indept  detail checkout the `Python_EDA Notebook`
-### Univariate Analysis
-In this section, both categorical and numerical columns are analyzed separately.
-**Task in this section:-**
-- First Seprate the  Numarical and Categorical clolumns for the analysis
-- In the categorical columns:-
-  - Check the Frequency distribution for the each categorical columns.
-  - Plot the Countplot and Pie chat side by side for each columns
-  - In some categorical columns unique category count is high for those columns we are going to disply Top 10 category.
-- In the Numarical Columns:-
- - Check the Central Tendency for each numarical columns Measures `Mean, Median, Mode`
- - Check for the Dispersion Measures with the help of `Discribe Function`
- - Check For the Descriptive Statistics such as `skewness and kurtosis`
- - Plot the `Histplot` and `kdeplot` for the each numarical columns for visual representation
- 
-#### Univariate Analysis of Work_type
- ![chat 1](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/34813d10-3714-4eeb-8b66-2826f43239a4)
-
 #### Categorical Columns
 - Frequency distribution, count plots, and pie charts are generated for each categorical column.
 - For categorical columns with a high number of unique categories, only the top 10 categories are displayed.
@@ -172,18 +152,28 @@ In this section, both categorical and numerical columns are analyzed separately.
 - Maharashtra has the highest number of job opportunities (14.7%), followed by Karnataka (11.6%).
 
 ### Bivariate Analysis
-In this section, the relationships between different columns are analyzed.
-
-#### Experience vs. Salary
-- The "experience" column is divided into four categories: Less than 1 year, 1-3 years, 4-6 years, and 7+ years.
-- The salary range for each category is analyzed using box plots.
-
-#### Job Type vs. Salary
-- The relationship between "work_type" and salary is analyzed.
-- Onsite jobs tend to have higher salaries compared to remote and hybrid jobs.
 
 ## Conclusion
 This project provides valuable insights into the recruitment process and market trends. The extracted information can be utilized by the HR department to make informed decisions and optimize their recruitment strategies. The interactive dashboard created using Tableau enables easy exploration and visualization of the data.
 
 For more detailed information and visualizations, please refer to the respective notebooks and the final dashboard.
+
+## Quick Overview of EDA in Python
+- For indept  detail checkout the `Python_EDA Notebook`
+### Univariate Analysis
+In this section, both categorical and numerical columns are analyzed separately.
+**Task in this section:-**
+- First Seprate the  Numarical and Categorical clolumns for the analysis
+- In the categorical columns:-
+  - Check the Frequency distribution for the each categorical columns.
+  - Plot the Countplot and Pie chat side by side for each columns
+  - In some categorical columns unique category count is high for those columns we are going to disply Top 10 category.
+- In the Numarical Columns:-
+ - Check the Central Tendency for each numarical columns Measures `Mean, Median, Mode`
+ - Check for the Dispersion Measures with the help of `Discribe Function`
+ - Check For the Descriptive Statistics such as `skewness and kurtosis`
+ - Plot the `Histplot` and `kdeplot` for the each numarical columns for visual representation
+ 
+#### Univariate Analysis of Work_type
+ ![chat 1](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/34813d10-3714-4eeb-8b66-2826f43239a4)
 

@@ -1,9 +1,19 @@
-# Company HR Recruitment Insights
+# ![human-resources](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/291364bf-388b-4dd8-931b-b6886c679a75)Company HR Recruitment Insights
 
-## Introduction
+## ![presentation](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/c18579cc-df95-4bea-980e-653c6b89c0d5)&nbsp; Introduction
 This project focuses on extracting insights from a large dataset related to recruitment and placement activities in companies. The dataset provides valuable information that can be used by the HR department to gain knowledge about the recruitment process and market trends. The project involves several steps, including data scraping, data cleaning, exploratory data analysis (EDA), and building a dashboard using Tableau.
 
-## Project Steps
+## ![folder](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/47317616-5fb6-43b0-9430-709ea820f528)&nbsp; Folder Structure Guide
+
+| Files/Folder         | Description                                                             |
+|---------------------|-------------------------------------------------------------------------|
+| .ipynb Folder       | This folder includes the Jupyter notebook files that were utilized to scrape the data from the web.                                  |
+| Dataset Folder      | Within this folder, there are two CSV tables that were acquired by scraping data from the web.                                   |
+| Presentation Folder | This folder contains the presentation in PDF format.                                   |
+| Dashboard File      | This is a Power BI-based dashboard that we developed to generate insights.                                   |
+
+
+## ![waterfall](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/938da01a-c072-48f8-82b3-a39d2b7a5c3d)&nbsp; Project Steps
 1. **Scraping Data from LinkedIn:** The data is collected from the professional networking platform LinkedIn using the Python library Beautiful Soup or a similar tool. The scraping script is available in the notebook named `Linkdin_scraping.ipynb`.
 
 2. **Data Cleaning:** The collected data is cleaned and preprocessed to ensure its quality and consistency. The data cleaning process is performed in the notebook named `Data_Cleaning.ipynb`.
@@ -13,27 +23,30 @@ This project focuses on extracting insights from a large dataset related to recr
 4. **Dashboard Creation:** A dashboard is built using Tableau to visualize and present the extracted insights in an interactive and informative manner.
 
 
-## Data Summary
+## ![data-analysis](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/a3a4d682-d34f-401a-b9dc-ec3b43be870a)&nbsp; Data Summary
 The provided LinkedIn dataset consists of 7,927 rows and 15 columns, offering a comprehensive overview of job postings available on the platform. This dataset can be utilized for data analysis, visualization, and research purposes. The job postings encompass various roles such as Data Analyst, Machine Learning Engineer, IT Services, and IT Consulting, located in diverse locations worldwide, with varying salaries and work hours. The dataset provides information about the company, role responsibilities, and required skills for each job. It serves as a valuable resource for understanding job opportunities in different industries and locations.
 
-## Column Descriptions
+## ![spreadsheet](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/5b85051e-7d5e-437a-a013-ac8d0215da17)&nbsp; Column Descriptions
 The dataset contains the following columns:
 
-- `job_ID`: Unique identifier for each job posting.
-- `job`: The title of the job posting.
-- `location`: The location of the job posting.
-- `company_id`: The unique identifier for the company offering the job.
-- `company_name`: The name of the company offering the job.
-- `work_type`: The type of work offered (e.g., full-time, part-time, etc.).
-- `full_time_remote`: Indicates if the job is a full-time remote position.
-- `no_of_employ`: The number of employees at the company offering the job.
-- `no_of_application`: The number of applications received for the job.
-- `posted_day_ago`: The number of days ago the job was posted.
-- `alumni`: Indicates if the job posting is for alumni of a certain organization.
-- `Hiring_person`: The name of the person responsible for hiring for the job.
-- `linkedin_followers`: The number of LinkedIn followers of the hiring person.
-- `hiring_person_link`: A link to the LinkedIn profile of the hiring person.
-- `job_details`: Detailed information about the job, including responsibilities and requirements.
+| Column Name            | Description                                                                  |
+|------------------------|------------------------------------------------------------------------------|
+| job_ID                 | Unique identifier for each job posting.                                      |
+| job                    | The title of the job posting.                                                |
+| location               | The location of the job posting.                                             |
+| company_id             | The unique identifier for the company offering the job.                       |
+| company_name           | The name of the company offering the job.                                    |
+| work_type              | The type of work offered (e.g., full-time, part-time, etc.).                  |
+| full_time_remote       | Indicates if the job is a full-time remote position.                          |
+| no_of_employ           | The number of employees at the company offering the job.                      |
+| no_of_application      | The number of applications received for the job.                              |
+| posted_day_ago         | The number of days ago the job was posted.                                   |
+| alumni                 | Indicates if the job posting is for alumni of a certain organization.         |
+| Hiring_person          | The name of the person responsible for hiring for the job.                    |
+| linkedin_followers     | The number of LinkedIn followers of the hiring person.                        |
+| hiring_person_link     | A link to the LinkedIn profile of the hiring person.                          |
+| job_details            | Detailed information about the job, including responsibilities and requirements. |
+
 
 ## Issues with the Dataset
 The dataset exhibits several issues that require attention:
@@ -61,10 +74,10 @@ The dataset exhibits several issues that require attention:
    - The `company_name` column has inconsistencies in the name, with some letters starting with a lowercase and others with a capital letter.
    - There are 2,084 duplicate values found in the dataset.
 
-## Data Cleaning and Preprocessing
+## ![data-cleaning](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/3c3cce7b-e566-41f0-9383-5b085bdd5fc6)&nbsp; Data Cleaning and Preprocessing
 - Remove duplicate values from the DataFrame.
 - Replace or remove null values based on analysis.
-- Assign unique identifiers to the "company_id" column based on the order of appearance in the DataFrame.
+- Assign unique identifiers to the "company_id" column based on the order of appe&nbsp;arance in the DataFrame.
 ### Handling missing values
   - All the column has the null value except `job_ID` and `company_id`
   - `job` has **27** Null values -- This column has the less null value we can remove all the null values
@@ -118,9 +131,9 @@ In this section, both categorical and numerical columns are analyzed separately.
  - Check for the Dispersion Measures with the help of `Discribe Function`
  - Check For the Descriptive Statistics such as `skewness and kurtosis`
  - Plot the `Histplot` and `kdeplot` for the each numarical columns for visual representation
- **Univariate Analysis of Work_type**
  
-![chat 1](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/34813d10-3714-4eeb-8b66-2826f43239a4)
+#### Univariate Analysis of Work_type
+ ![chat 1](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/34813d10-3714-4eeb-8b66-2826f43239a4)
 
 #### Categorical Columns
 - Frequency distribution, count plots, and pie charts are generated for each categorical column.

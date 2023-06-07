@@ -7,7 +7,7 @@ This project focuses on extracting insights from a large dataset related to recr
 
 | Files/Folder         | Description                                                             |
 |---------------------|-------------------------------------------------------------------------|
-| .ipynb Folder       | This folder includes the Jupyter notebook files that were utilized to scrape the data from the web.                                  |
+| Notebooks Folder       | This folder includes the Jupyter notebook files that were utilized to scrape the data from the web.                                  |
 | Dataset Folder      | Within this folder, there are two CSV tables that were acquired by scraping data from the web.                                   |
 | Presentation Folder | This folder contains the presentation in PDF format.                                   |
 | Dashboard File      | This is a Power BI-based dashboard that we developed to generate insights.                                   |

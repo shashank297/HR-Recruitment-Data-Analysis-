@@ -61,13 +61,13 @@ The dataset exhibits several issues that require attention:
    - The `company_name` column has inconsistencies in the name, with some letters starting with a lowercase and others with a capital letter.
    - There are 2,084 duplicate values found in the dataset.
 
-## Insights
-The following are some of the key insights obtained from the analysis:
-
-### Data Cleaning
+## Data Cleaning
 - The "total_applicants" column contains noise, such as values like "days," "day," "hour," and "minute."
 - The column type is currently Object, and it needs to be converted into a numeric type using the `to_numeric` function.
 - The missing values (NaN) in the column are replaced with the mean value.
+
+## Insights
+The following are some of the key insights obtained from the analysis:
 
 ### Univariate Analysis
 In this section, both categorical and numerical columns are analyzed separately.

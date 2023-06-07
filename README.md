@@ -61,23 +61,6 @@ The dataset exhibits several issues that require attention:
    - The `company_name` column has inconsistencies in the name, with some letters starting with a lowercase and others with a capital letter.
    - There are 2,084 duplicate values found in the dataset.
 
-## Exploratory Data Analysis (EDA) Functions in Python
-During the data cleaning process, the following EDA functions in Python can be applied:
-- `head` and `tail`: Display the top or bottom rows of the dataset.
-- `sample`: Retrieve a random sample of rows from the dataset.
-- `info`: Provide information about the dataset, including column data types and non-null values.
-- `isnull`: Identify missing values in the dataset.
-- `duplicated`: Identify duplicated rows in the dataset.
-- `describe`: Generate descriptive statistics of the numerical columns.
-
-These functions will assist in understanding the structure and characteristics of the data, enabling effective data cleaning and exploration.
-
-2. **Data Cleaning:** The collected data is cleaned and preprocessed to ensure its quality and consistency. The data cleaning process is performed in the notebook named `Data_Cleaning.ipynb`.
-
-3. **Exploratory Data Analysis (EDA):** The cleaned data is analyzed to gain insights into various aspects of the recruitment process. The EDA is conducted using Python in the notebook named `EDA_Python.ipynb`.
-
-4. **Dashboard Creation:** A dashboard is built using Tableau to visualize and present the extracted insights in an interactive and informative manner.
-
 ## Insights
 The following are some of the key insights obtained from the analysis:
 

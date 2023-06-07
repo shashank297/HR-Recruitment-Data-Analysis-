@@ -6,6 +6,66 @@ This project focuses on extracting insights from a large dataset related to recr
 ## Project Steps
 1. **Scraping Data from LinkedIn:** The data is collected from the professional networking platform LinkedIn using the Python library Beautiful Soup or a similar tool. The scraping script is available in the notebook named `Linkedin.ipynb`.
 
+## Data Info
+## Data Summary
+The provided LinkedIn dataset consists of 7,927 rows and 15 columns, offering a comprehensive overview of job postings available on the platform. This dataset can be utilized for data analysis, visualization, and research purposes. The job postings encompass various roles such as Data Analyst, Machine Learning Engineer, IT Services, and IT Consulting, located in diverse locations worldwide, with varying salaries and work hours. The dataset provides information about the company, role responsibilities, and required skills for each job. It serves as a valuable resource for understanding job opportunities in different industries and locations.
+
+## Column Descriptions
+The dataset contains the following columns:
+
+- `job_ID`: Unique identifier for each job posting.
+- `job`: The title of the job posting.
+- `location`: The location of the job posting.
+- `company_id`: The unique identifier for the company offering the job.
+- `company_name`: The name of the company offering the job.
+- `work_type`: The type of work offered (e.g., full-time, part-time, etc.).
+- `full_time_remote`: Indicates if the job is a full-time remote position.
+- `no_of_employ`: The number of employees at the company offering the job.
+- `no_of_application`: The number of applications received for the job.
+- `posted_day_ago`: The number of days ago the job was posted.
+- `alumni`: Indicates if the job posting is for alumni of a certain organization.
+- `Hiring_person`: The name of the person responsible for hiring for the job.
+- `linkedin_followers`: The number of LinkedIn followers of the hiring person.
+- `hiring_person_link`: A link to the LinkedIn profile of the hiring person.
+- `job_details`: Detailed information about the job, including responsibilities and requirements.
+
+## Issues with the Dataset
+The dataset exhibits several issues that require attention:
+
+1. Dirty Data:
+   - The `job` column contains unnecessary information such as yearly package, technology, company name, and work type (remote) added in the title.
+   - The `no_of_application` column includes values like 'hours' and 'minutes' that should not be present.
+
+2. Consistency:
+   - In the `posted_day_ago` column, time is added in the form of strings, such as '9 hours' and '8 minutes'.
+   - The `Alumni` column includes strings with the count value ('company alumni').
+   - The `Hiring_person` column contains nicknames added within parentheses.
+
+3. Completeness:
+   - The `company_id` column is completely blank.
+
+4. Validity:
+   - The `linkedin_followers` column contains the string 'linkedin_followers' with numbers, where numbers are separated by ' , '.
+   - The `Full_time_remote` column combines involvement and level in one column, separated by '·'.
+   - The `No_of_employ` column combines employees_count and industry in one column, with the 'employees' string added unnecessarily, separated by '·'.
+   - The `location` column combines country, state, and city in one column, separated by ','.
+
+5. Messy Data:
+   - In the `Job` column, some entries start with capital letters while others are in small letters.
+   - The `company_name` column has inconsistencies in the name, with some letters starting with a lowercase and others with a capital letter.
+   - There are 2,084 duplicate values found in the dataset.
+
+## Exploratory Data Analysis (EDA) Functions in Python
+During the data cleaning process, the following EDA functions in Python can be applied:
+- `head` and `tail`: Display the top or bottom rows of the dataset.
+- `sample`: Retrieve a random sample of rows from the dataset.
+- `info`: Provide information about the dataset, including column data types and non-null values.
+- `isnull`: Identify missing values in the dataset.
+- `duplicated`: Identify duplicated rows in the dataset.
+- `describe`: Generate descriptive statistics of the numerical columns.
+
+These functions will assist in understanding the structure and characteristics of the data, enabling effective data cleaning and exploration.
+
 2. **Data Cleaning:** The collected data is cleaned and preprocessed to ensure its quality and consistency. The data cleaning process is performed in the notebook named `Data_Cleaning.ipynb`.
 
 3. **Exploratory Data Analysis (EDA):** The cleaned data is analyzed to gain insights into various aspects of the recruitment process. The EDA is conducted using Python in the notebook named `EDA_Python.ipynb`.

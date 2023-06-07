@@ -87,7 +87,7 @@ The dataset exhibits several issues that require attention:
 - Remove duplicate values and reset the index.
 - Assign a unique identifier to each company based on their order of appearance in the DataFrame.
 - Assign unique numerical identifiers to companies and jobs based on their order of appearance in the DataFrame.
-- Drop unnecessary columns.
+- Drop unnecessary columns.`'location','posted_day_ago','Hiring_person','alumni','hiring_person_link'`
 - Remove unwanted strings from the DataFrame.
 - Separate columns and handle null values generated.
 - Replace null values in the "company_sector" and "job_level" columns.
@@ -107,6 +107,20 @@ The following are some of the key insights obtained from the analysis:
 
 ### Univariate Analysis
 In this section, both categorical and numerical columns are analyzed separately.
+**Task in this section:-**
+- First Seprate the  Numarical and Categorical clolumns for the analysis
+- In the categorical columns:-
+  - Check the Frequency distribution for the each categorical columns.
+  - Plot the Countplot and Pie chat side by side for each columns
+  - In some categorical columns unique category count is high for those columns we are going to disply Top 10 category.
+- In the Numarical Columns:-
+ - Check the Central Tendency for each numarical columns Measures `Mean, Median, Mode`
+ - Check for the Dispersion Measures with the help of `Discribe Function`
+ - Check For the Descriptive Statistics such as `skewness and kurtosis`
+ - Plot the `Histplot` and `kdeplot` for the each numarical columns for visual representation
+ **Univariate Analysis of Work_type**
+ 
+![chat 1](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/34813d10-3714-4eeb-8b66-2826f43239a4)
 
 #### Categorical Columns
 - Frequency distribution, count plots, and pie charts are generated for each categorical column.

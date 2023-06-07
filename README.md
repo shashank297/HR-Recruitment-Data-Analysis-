@@ -62,9 +62,65 @@ The dataset exhibits several issues that require attention:
    - There are 2,084 duplicate values found in the dataset.
 
 ## Data Cleaning and Preprocessing
-- The "total_applicants" column contains noise, such as values like "days," "day," "hour," and "minute."
-- The column type is currently Object, and it needs to be converted into a numeric type using the `to_numeric` function.
-- The missing values (NaN) in the column are replaced with the mean value.
+- Remove duplicate values from the DataFrame.
+- Replace or remove null values based on analysis.
+- Assign unique identifiers to the "company_id" column based on the order of appearance in the DataFrame.
+### Handling missing values
+  - All the column has the null value except `job_ID` and `company_id`
+  - `job` has **27** Null values -- This column has the less null value we can remove all the null values
+  - `location` has **27** Null values -- This column also has less null value so we can directly remove all
+  - `company_name` has **28** Null values -- This column also has less null value so we can directly remove all
+  - `work_type` has **132** Null values -- Since the data in this column object type we can replace it with the mode 
+  -`full_time_remote` has **67** Null values -- This column also has less null value so we can directly remove all
+  - `no_of_employ` has **229** Null values -- This column also has less null value so we can directly remove all
+  -`no_of_application` has **33** Null values -- either we can remove it or replace it with the 0 because i know for a fact there is null values because at that time there is no application
+  -`posted_day_ago` has **6** Null values -- This column also has less null value so we can directly remove all
+  - `Hiring_person` has **1686** Null values -- In this we are going to replace the null values with 'Not Available'
+  -`linkedin_followers` has **2313** -- In this column there is a posiblity there is 0 followers so null is placed insist of it but i am going to replace it with the mean.
+  -`job_details` has **44** Null values -- This column also has less null value so we can directly remove all
+#### steps involved in the data cleaning process
+- Checking the top 5 rows of the DataFrame.
+- Checking the last 5 rows of the DataFrame.
+- Checking the last 5 rows of the DataFrame again.
+- Checking for null values in the DataFrame.
+- Calculating the percentage of null values column-wise.
+- Checking the data types and the count of non-null values in the DataFrame.
+- Checking for duplicate values in the dataset.
+- Creating a copy of the DataFrame.
+- Removing duplicate values from the DataFrame.
+- Replacing or removing null values based on analysis.
+- Assigning a unique identifier to each company based on their order of appearance in the DataFrame since the "company_id" column is blank.
+- Checking for duplicate values.
+- Removing duplicate values and resetting the index.
+- Displaying the shape of the DataFrame after removing duplicates.
+- Assigning a unique numerical identifier to each company in the "company_name" column and adding it to a new "company_id" column based on the company's order of appearance in the DataFrame.
+- Assigning a unique numerical identifier to each job in the "job_ID" column and adding it to a new "details_id" column based on the job's order of appearance in the DataFrame.
+- Dropping unnecessary columns.
+- Removing unwanted strings from the DataFrame.
+- Removing null values from the DataFrame.
+- Separating the columns.
+- Splitting the "no_of_employ" column on the "·" separator and storing the values in new columns.
+- Splitting the "full_time_remote" column on the "·" separator and storing the values in new columns.
+- Handling the null values generated after separating the columns.
+- Replacing the 1957 null values in the "company_sector" column with "Not Available".
+- Replacing the 2070 null values in the "job_level" column with "Not Available".
+- Removing the 3 null values in the "posted_day_ago" column.
+- Separating the city and state from the "location" column.
+- Installing the geopy module.
+- Creating a function to find the states based on cities.
+- Creating a function to find the city based on cities.
+- Applying the "extract_state" function to the "state" column in the DataFrame.
+- Encountering an error while applying the function, so retrieving the missing values from the "location" column.
+- Checking for noise values in the "City" column.
+- Applying the "extract_city" function to the "City" column to get the city names.
+- Identifying 42 unique states present in the "City" column.
+- Replacing the city cells where state names are stored.
+- Identifying 538 null values in the "City" column.
+- Checking for noise values in the "State" column.
+- Replacing the noise value "Trentino-Alto Adige/Südtirol" with null values in the "State" column.
+- Identifying noise in the "job" column under the broad category, for example, converting "Analytics Manager" and "Security_Analyst_GRC" to "Data Analyst".
+- Creating bullet points for the Data Cleaning and Preprocessing GitHub readme file.
+
 
 ## Insights
 The following are some of the key insights obtained from the analysis:

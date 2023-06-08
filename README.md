@@ -29,23 +29,23 @@ The provided LinkedIn dataset consists of 7,927 rows and 15 columns, offering a 
 ## ![spreadsheet](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/5b85051e-7d5e-437a-a013-ac8d0215da17)&nbsp; Column Descriptions
 The dataset contains the following columns:
 
-| Column Name            | Description                                                                  |
-|------------------------|------------------------------------------------------------------------------|
-| job_ID                 | Unique identifier for each job posting.                                      |
-| job                    | The title of the job posting.                                                |
-| location               | The location of the job posting.                                             |
-| company_id             | The unique identifier for the company offering the job.                       |
-| company_name           | The name of the company offering the job.                                    |
-| work_type              | The type of work offered (e.g., full-time, part-time, etc.).                  |
-| full_time_remote       | Indicates if the job is a full-time remote position.                          |
-| no_of_employ           | The number of employees at the company offering the job.                      |
-| no_of_application      | The number of applications received for the job.                              |
-| posted_day_ago         | The number of days ago the job was posted.                                   |
-| alumni                 | Indicates if the job posting is for alumni of a certain organization.         |
-| Hiring_person          | The name of the person responsible for hiring for the job.                    |
-| linkedin_followers     | The number of LinkedIn followers of the hiring person.                        |
-| hiring_person_link     | A link to the LinkedIn profile of the hiring person.                          |
-| job_details            | Detailed information about the job, including responsibilities and requirements. |
+| Column Name      | Description                                                        |
+|------------------|--------------------------------------------------------------------|
+| job_ID           | Unique identifier for each job listing.                             |
+| designation      | The title or position of the job.                                  |
+| company_id       | Unique identifier for each company.                                |
+| name             | Name of the company offering the job.                              |
+| work_type        | Indicates whether the job is remote or on-site.                    |
+| involvement      | The level of involvement required for the job (e.g., Full-time, Part-time). |
+| employees_count  | The count of employees in the company.                             |
+| total_applicants | The total number of applicants for the job.                        |
+| linkedin_followers | The number of followers on the company's LinkedIn page.           |
+| job_details      | Description of the job and its responsibilities.                   |
+| details_id       | Unique identifier for the job details.                             |
+| industry         | The industry or sector to which the company belongs.               |
+| level            | The experience level or seniority associated with the job.         |
+| City             | The city where the job is located.                                 |
+| State            | The state where the job is located.                                |
 
 
 ## Issues with the Dataset

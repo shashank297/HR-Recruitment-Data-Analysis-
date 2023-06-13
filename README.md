@@ -11,7 +11,7 @@ This project focuses on extracting insights from a large dataset related to recr
 | Dataset Folder      | Within this folder, there are two CSV tables that were acquired by scraping data from the web.                                   |
 | Presentation Folder | This folder contains the presentation in PDF format.                                   |
 | Dashboard File      | This is a Power BI-based dashboard that we developed to generate insights.                                   |
-|Scraping             | Within this folder, python scraping file is there           |
+|Scraping Folder      | Within this folder, python scraping file is there           |
 
 ## ![waterfall](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/938da01a-c072-48f8-82b3-a39d2b7a5c3d)&nbsp; Project Steps
 1. **Scraping Data from LinkedIn:** The data is collected from the professional networking platform LinkedIn using the Python library Beautiful Soup or a similar tool. The scraping script is available in the notebook named `Linkdin_scraping.ipynb`.

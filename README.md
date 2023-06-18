@@ -151,7 +151,7 @@ For more detailed information and visualizations, please take a look at the resp
 
 ![image](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/18d577a0-bbb4-4a67-830c-276b112e7374)
 
-## Suggestion to the HR department
+## ![quiz](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/01abb589-d217-49c3-b9a1-e05c1ed4f7e0)&nbsp; Suggestion to the HR department
 
 - Focus on recruiting and retaining skilled data analysts: Given the high demand for data analysts at all levels, it is crucial to invest in attracting and retaining talent with strong data analysis skills. Implement effective recruitment strategies, offer competitive compensation packages, and provide opportunities for professional development and growth within the organization.
 

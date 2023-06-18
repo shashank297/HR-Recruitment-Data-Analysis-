@@ -7,11 +7,11 @@ This project focuses on extracting insights from a large dataset related to recr
 
 | Files/Folder        | Description                                                             |
 |---------------------|-------------------------------------------------------------------------|
-| Notebooks Folder    | This folder includes the Jupyter notebook files that were utilized to scrape the data from the web.                                  |
+| Notebooks Folder    | This folder includes the Jupyter Notebook files that were utilized to scrape the data from the web.                                  |
 | Dataset Folder      | Within this folder, there are two CSV tables that were acquired by scraping data from the web.                                   |
 | Presentation Folder | This folder contains the presentation in PDF format.                                   |
 | Dashboard File      | This is a Power BI-based dashboard that we developed to generate insights.                                   |
-|Scraping Folder      | Within this folder, python scraping file is there           |
+|Scraping Folder      | Within this folder, the python scraping file is there           |
 
 ## ![waterfall](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/938da01a-c072-48f8-82b3-a39d2b7a5c3d)&nbsp; Project Steps
 1. **Scraping Data from LinkedIn:** The data is collected from the professional networking platform LinkedIn using the Python library Beautiful Soup or a similar tool. The scraping script is available in the notebook named `Linkdin_scraping.ipynb`.
@@ -64,32 +64,32 @@ The dataset exhibits several issues that require attention:
    - The `company_id` column is completely blank.
 
 4. Validity:
-   - The `linkedin_followers` column contains the string 'linkedin_followers' with numbers, where numbers are separated by ' , '.
+   - The `linkedin_followers` column contains the string 'linkedin_followers' with numbers, where numbers are separated by ', '.
    - The `Full_time_remote` column combines involvement and level in one column, separated by '·'.
    - The `No_of_employ` column combines employees_count and industry in one column, with the 'employees' string added unnecessarily, separated by '·'.
    - The `location` column combines country, state, and city in one column, separated by ','.
 
 5. Messy Data:
    - In the `Job` column, some entries start with capital letters while others are in small letters.
-   - The `company_name` column has inconsistencies in the name, with some letters starting with a lowercase and others with a capital letter.
+   - The `company_name` column has inconsistencies in the name, with some letters starting with lowercase and others with a capital letter.
    - There are 2,084 duplicate values found in the dataset.
 
 ## ![data-cleaning](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/3c3cce7b-e566-41f0-9383-5b085bdd5fc6)&nbsp; Data Cleaning and Preprocessing
 - Remove duplicate values from the DataFrame.
 - Replace or remove null values based on analysis.
-- Assign unique identifiers to the "company_id" column based on the order of appe&nbsp;arance in the DataFrame.
+- Assign unique identifiers to the "company_id" column based on the order of appearance in the DataFrame.
 ### Handling missing values
   - All the column has the null value except `job_ID` and `company_id`
   - `job` has **27** Null values -- This column has the less null value we can remove all the null values
   - `location` has **27** Null values -- This column also has less null value so we can directly remove all
   - `company_name` has **28** Null values -- This column also has less null value so we can directly remove all
-  - `work_type` has **132** Null values -- Since the data in this column object type we can replace it with the mode 
+  - `work_type` has **132** Null values -- Since the data in this column is object type we can replace it with the mode 
   -`full_time_remote` has **67** Null values -- This column also has less null value so we can directly remove all
   - `no_of_employ` has **229** Null values -- This column also has less null value so we can directly remove all
-  -`no_of_application` has **33** Null values -- either we can remove it or replace it with the 0 because i know for a fact there is null values because at that time there is no application
+  -`no_of_application` has **33** Null values -- either we can remove it or replace it with the 0 because I know for a fact there are null values because at that time there is no application
   -`posted_day_ago` has **6** Null values -- This column also has less null value so we can directly remove all
-  - `Hiring_person` has **1686** Null values -- In this we are going to replace the null values with 'Not Available'
-  -`linkedin_followers` has **2313** -- In this column there is a posiblity there is 0 followers so null is placed insist of it but i am going to replace it with the mean.
+  - `Hiring_person` has **1686** Null values -- In this, we are going to replace the null values with 'Not Available'
+  -`linkedin_followers` has **2313** -- In this column there is a possibility there are 0 followers so null is placed insist of it but I am going to replace it with the mean.
   -`job_details` has **44** Null values -- This column also has less null value so we can directly remove all
 #### steps involved in the data cleaning process
 - Check the top 5 and last 5 rows of the DataFrame.
@@ -136,30 +136,11 @@ The following are some of the key insights obtained from the analysis:
 
 - Executives and associates prefer on-site work due to the need for guidance and collaboration.
 
-- Internships and mid-Senior level positions have a correlation with remote work, driven by factors such as unpaid internships and the experience level of employees.
+- Internships and mid-Senior level positions correlate with remote work, driven by factors such as unpaid internships and the experience level of employees.
 
 - According to the analysis, the data analyst role has the highest job count, with over 700 positions, making up 62.1% of the job share within the Analytics field. Following closely is the business analyst role, with over 200 positions, representing 19.8% of the job share. These findings indicate a strong demand for professionals in both data and business analytics, highlighting the significance of these roles in the job market.
 
 For more detailed information and visualizations, please take a look at the respective notebooks and the final dashboard.
-
-## Quick Overview of EDA in Python
-- For in-depth  detail checkout the `Python_EDA Notebook`
-### Univariate Analysis
-In this section, both categorical and numerical columns are analyzed separately.
-**Task in this section:-**
-- First Separate the  Numerical and Categorical columns for the analysis
-- In the categorical columns:-
-  - Check the Frequency distribution for each categorical column.
-  - Plot the Countplot and Pie chat side by side for each column
-  - In some categorical columns unique category count is high for those columns we are going to display the Top 10 category.
-- In the Numerical Columns:-
- - Check the Central Tendency for each numerical columns Measures `Mean, Median, Mode`
- - Check for the Dispersion Measures with the help of `Describe Function`
- - Check For Descriptive Statistics such as `skewness and kurtosis`
- - Plot the `Histplot` and `kdeplot` for each numerical column for visual representation
- 
-#### Univariate Analysis of Work_type
- ![chat 1](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/34813d10-3714-4eeb-8b66-2826f43239a4)
 
 ## <img src="https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/d9284b57-4713-4940-a207-28958628408a" alt="dashboard" align="left" style="margin-right: 0px;" /> Dashboard Screenshot
 

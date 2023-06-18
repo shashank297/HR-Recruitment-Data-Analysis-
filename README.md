@@ -115,46 +115,30 @@ The dataset exhibits several issues that require attention:
 
 
 
-## Insights
+## ![insight](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/6b0bd1a5-5d10-4941-abac-4e57e3aded2a)&nbsp; Insights
 The following are some of the key insights obtained from the analysis:
 
-#### Categorical Columns
-- Frequency distribution, count plots, and pie charts are generated for each categorical column.
-- For categorical columns with a high number of unique categories, only the top 10 categories are displayed.
-- Insights are provided for the columns: "work_type," "involvement," "level," "designation," "Name" (company name), "Industry," "City," and "State."
+- Data analyst positions are highly sought after in the job market at all levels, indicating significant demand for professionals with data analysis skills.
 
-#### Numerical Columns
-- Measures of central tendency (mean, median, mode) are calculated for each numerical column.
-- Dispersion measures are obtained using the `describe` function.
-- Descriptive statistics such as skewness and kurtosis are analyzed.
-- Histograms and KDE plots are generated for each numerical column for visual representation.
+- Java developers continue to enjoy abundant job opportunities, highlighting the continued popularity and relevance of Java programming in the industry.
 
-#### Work Type and Involvement
-- The "work_type" column has three unique categories: Onsite, Remote, and Hybrid.
-- The count of onsite and remote jobs is almost the same, with onsite jobs slightly higher.
-- The "involvement" column has four unique categories: Full-Time, Part-Time, Internship, and Contract.
-- Full-Time has the majority share (93.6%), followed by Contract (3.4%).
+- Other developer roles, such as software testing and C development, are also in demand at various levels, demonstrating the need for expertise in these areas.
 
-#### Level and Designation
-- The "level" column has seven unique categories: Associate, Mid-Senior level, Not Available, Entry level, Director, Executive, and Internship.
-- Mid-Senior level has the highest share (52.5%), followed by Not Available (36.8%).
-- The "designation" column has many unique categories, and the top 10 types are identified.
-- Data Analyst is the most common designation (12.93%), followed by Java Developer (11.97%).
+- The job market offers a range of options, including full-time, contract, part-time, on-site, and remote positions, providing flexibility for both employers and employees.
 
-#### Company, Industry, City, and State
-- The "Name" column (company name) has many unique categories, and the top 10 companies are identified.
-- Epam Anywhere offers the most jobs (11.5%), followed by IBM (10.9%).
-- The "Industry" column has many unique categories, and the top 10 industries are identified.
-- Information Technology and Services is the most common industry (42.7%), followed by Computer Software (18.9%).
-- The "City" column has many unique categories, and the top 10 cities are identified.
-- Warsaw has the highest number of job opportunities (12.4%), followed by Bengaluru (11.6%).
-- The "State" column has many unique categories, and the top 10 states are identified.
-- Maharashtra has the highest number of job opportunities (14.7%), followed by Karnataka (11.6%).
+- Data analysis skills are considered essential, with data analysts leading the way in job availability, reflecting the growing importance of leveraging data-driven strategies in decision-making processes.
 
-### Bivariate Analysis
+- The demand for data analysts across industries underscores the vital role they play in enabling organizations to make informed decisions based on data insights.
 
-## Conclusion
-This project provides valuable insights into the recruitment process and market trends. The extracted information can be utilized by the HR department to make informed decisions and optimize their recruitment strategies. The interactive dashboard created using Tableau enables easy exploration and visualization of the data.
+- The availability of job opportunities at different levels within the data analysis field signifies the potential for growth and advancement in this career path. Additionally, the ongoing popularity of Java programming suggests its continued relevance in the development landscape, making it a valuable skill for software professionals to possess.
+
+- Internships and part-time jobs often allow people to work from home or another location using a computer. Many of these jobs, around 71% for internships and 66% for part-time jobs, can be done remotely. This means people don't have to go to an office or workplace. Employers offering these types of jobs are more likely to provide the option to work remotely.
+
+- Executives and associates prefer on-site work due to the need for guidance and collaboration.
+
+- Internships and mid-Senior level positions have a correlation with remote work, driven by factors such as unpaid internships and the experience level of employees.
+
+- According to the analysis, the data analyst role has the highest job count, with over 700 positions, making up 62.1% of the job share within the Analytics field. Following closely is the business analyst role, with over 200 positions, representing 19.8% of the job share. These findings indicate a strong demand for professionals in both data and business analytics, highlighting the significance of these roles in the job market.
 
 For more detailed information and visualizations, please take a look at the respective notebooks and the final dashboard.
 

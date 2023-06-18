@@ -144,13 +144,26 @@ For more detailed information and visualizations, please take a look at the resp
 
 ## <img src="https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/d9284b57-4713-4940-a207-28958628408a" alt="dashboard" align="left" style="margin-right: 0px;" /> Dashboard Screenshot
 
-### Home Page
+
 ![image](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/973ae654-1cbb-4041-84b8-96553b8dcae3)
-### Visualisation 
+
 ![image](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/41467a48-4971-4bb3-91bb-bf2acb4aa59f)
-### Statistics
+
 ![image](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/18d577a0-bbb4-4a67-830c-276b112e7374)
 
+## Suggestion to the HR department
 
+- Focus on recruiting and retaining skilled data analysts: Given the high demand for data analysts at all levels, it is crucial to invest in attracting and retaining talent with strong data analysis skills. Implement effective recruitment strategies, offer competitive compensation packages, and provide opportunities for professional development and growth within the organization.
 
+- Build a strong talent pipeline for Java developers: Recognize the ongoing popularity and relevance of Java programming in the industry. Establish partnerships with educational institutions and coding boot camps to create a pipeline of skilled Java developers. Provide training programs and mentorship opportunities to nurture their skills and ensure a steady supply of qualified candidates.
+
+- Address the demand for other developer roles: Identify the need for expertise in areas such as software testing and C development. Develop targeted recruitment strategies to attract professionals with these skills, including leveraging specialized job boards, attending relevant industry events, and engaging with developer communities. Provide growth opportunities and create an environment that encourages continuous learning in these areas.
+
+- Offer flexible work options: Given the prevalence of remote work opportunities, consider implementing flexible work options for employees. This can attract a wider pool of candidates and improve work-life balance. Develop policies and technologies that support effective remote collaboration and ensure productivity is maintained regardless of the work location.
+
+- Foster a data-driven culture: Recognize the growing importance of data analysis and the role it plays in decision-making processes. Encourage employees at all levels to develop data analysis skills and promote a data-driven culture within the organization. Provide training, tools, and resources to empower employees to make informed decisions based on data insights.
+
+- Stay updated on industry trends: Continuously monitor the job market and industry trends to ensure that the HR department stays informed about changing demands and skills requirements. Adapt recruitment strategies and job descriptions accordingly to attract the most suitable candidates for various roles.
+
+`Stay updated on industry trends: Continuously monitor the job market and industry trends to ensure that the HR department stays informed about changing demands and skills requirements. Adapt recruitment strategies and job descriptions accordingly to attract the most suitable candidates for various roles.`
 

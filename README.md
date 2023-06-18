@@ -177,5 +177,6 @@ In this section, both categorical and numerical columns are analyzed separately.
 #### Univariate Analysis of Work_type
  ![chat 1](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/34813d10-3714-4eeb-8b66-2826f43239a4)
 
- ## Dashboard Screenshot
+ ## ![dashboard](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/94e364f8-83e8-42b8-be1d-8be640712b5f)&nbsp;
+ Dashboard Screenshot
 

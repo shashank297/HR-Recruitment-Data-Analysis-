@@ -138,17 +138,17 @@ The following are some of the key insights obtained from the analysis:
 #### Level and Designation
 - The "level" column has seven unique categories: Associate, Mid-Senior level, Not Available, Entry level, Director, Executive, and Internship.
 - Mid-Senior level has the highest share (52.5%), followed by Not Available (36.8%).
-- The "designation" column has a high number of unique categories, and the top 10 categories are identified.
+- The "designation" column has many unique categories, and the top 10 types are identified.
 - Data Analyst is the most common designation (12.93%), followed by Java Developer (11.97%).
 
 #### Company, Industry, City, and State
-- The "Name" column (company name) has a high number of unique categories, and the top 10 companies are identified.
+- The "Name" column (company name) has many unique categories, and the top 10 companies are identified.
 - Epam Anywhere offers the most jobs (11.5%), followed by IBM (10.9%).
-- The "Industry" column has a high number of unique categories, and the top 10 industries are identified.
+- The "Industry" column has many unique categories, and the top 10 industries are identified.
 - Information Technology and Services is the most common industry (42.7%), followed by Computer Software (18.9%).
-- The "City" column has a high number of unique categories, and the top 10 cities are identified.
+- The "City" column has many unique categories, and the top 10 cities are identified.
 - Warsaw has the highest number of job opportunities (12.4%), followed by Bengaluru (11.6%).
-- The "State" column has a high number of unique categories, and the top 10 states are identified.
+- The "State" column has many unique categories, and the top 10 states are identified.
 - Maharashtra has the highest number of job opportunities (14.7%), followed by Karnataka (11.6%).
 
 ### Bivariate Analysis
@@ -156,24 +156,26 @@ The following are some of the key insights obtained from the analysis:
 ## Conclusion
 This project provides valuable insights into the recruitment process and market trends. The extracted information can be utilized by the HR department to make informed decisions and optimize their recruitment strategies. The interactive dashboard created using Tableau enables easy exploration and visualization of the data.
 
-For more detailed information and visualizations, please refer to the respective notebooks and the final dashboard.
+For more detailed information and visualizations, please take a look at the respective notebooks and the final dashboard.
 
 ## Quick Overview of EDA in Python
-- For indept  detail checkout the `Python_EDA Notebook`
+- For in-depth  detail checkout the `Python_EDA Notebook`
 ### Univariate Analysis
 In this section, both categorical and numerical columns are analyzed separately.
 **Task in this section:-**
-- First Seprate the  Numarical and Categorical clolumns for the analysis
+- First Separate the  Numerical and Categorical columns for the analysis
 - In the categorical columns:-
-  - Check the Frequency distribution for the each categorical columns.
-  - Plot the Countplot and Pie chat side by side for each columns
-  - In some categorical columns unique category count is high for those columns we are going to disply Top 10 category.
-- In the Numarical Columns:-
- - Check the Central Tendency for each numarical columns Measures `Mean, Median, Mode`
- - Check for the Dispersion Measures with the help of `Discribe Function`
- - Check For the Descriptive Statistics such as `skewness and kurtosis`
- - Plot the `Histplot` and `kdeplot` for the each numarical columns for visual representation
+  - Check the Frequency distribution for each categorical column.
+  - Plot the Countplot and Pie chat side by side for each column
+  - In some categorical columns unique category count is high for those columns we are going to display the Top 10 category.
+- In the Numerical Columns:-
+ - Check the Central Tendency for each numerical columns Measures `Mean, Median, Mode`
+ - Check for the Dispersion Measures with the help of `Describe Function`
+ - Check For Descriptive Statistics such as `skewness and kurtosis`
+ - Plot the `Histplot` and `kdeplot` for each numerical column for visual representation
  
 #### Univariate Analysis of Work_type
  ![chat 1](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/34813d10-3714-4eeb-8b66-2826f43239a4)
+
+ ## Dashboard Screenshot
 

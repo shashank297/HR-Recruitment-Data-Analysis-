@@ -177,6 +177,15 @@ In this section, both categorical and numerical columns are analyzed separately.
 #### Univariate Analysis of Work_type
  ![chat 1](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/34813d10-3714-4eeb-8b66-2826f43239a4)
 
- ## ![dashboard](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/94e364f8-83e8-42b8-be1d-8be640712b5f)&nbsp;
- Dashboard Screenshot
+## <img src="https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/d9284b57-4713-4940-a207-28958628408a" alt="dashboard" align="left" style="margin-right: 0px;" /> Dashboard Screenshot
+
+### Home Page
+![image](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/973ae654-1cbb-4041-84b8-96553b8dcae3)
+### Visualisation 
+![image](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/41467a48-4971-4bb3-91bb-bf2acb4aa59f)
+### Statistics
+![image](https://github.com/shashank297/Linkdin_Job_Analytics/assets/67503481/18d577a0-bbb4-4a67-830c-276b112e7374)
+
+
+
 
